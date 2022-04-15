@@ -12,7 +12,6 @@
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.4",
         "laravel/framework": "^9.8",
-        "laravel/sanctum": "^2.14",
         "laravel/tinker": "^2.7",
         "spatie/laravel-ray": "^1.29",
         "statamic/cms": "3.3.*"
