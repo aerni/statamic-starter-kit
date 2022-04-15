@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => null,
+    'default' => env('STATAMIC_PROTECTION_SCHEME', null),
 
     /*
     |--------------------------------------------------------------------------
@@ -43,7 +43,7 @@ return [
 
         'password' => [
             'driver' => 'password',
-            'allowed' => ['secret'],
+            'allowed' => [env('STATAMIC_PROTECTION_PASSWORD')],
             'form_url' => null,
         ],
 
