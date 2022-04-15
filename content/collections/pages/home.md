@@ -1,5 +1,5 @@
 ---
 title: Home
 id: home
-blueprint: pages
+blueprint: page
 ---
